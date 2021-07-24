@@ -10,6 +10,24 @@ Using weights as constant values hinders convergence mainly because of vanishing
 What is "loss" in a neural network?
 The difference between the NN output and the ground truth output. The loss function determines the learning (training) outcome in a NN. A loss function shows the NN the gaps that it needs to fill/learn, such that it is able to perform a particular task.
 
+## The "chain rule" in gradient flow
+
+We know that the chain rule is used for calculating the derivative of composite functions. If a variable z depends on the variable y, which itself depends on the variable x, so that y and z are dependent variables, then z, via the intermediate variable of y, depends on x as well. This is called the chain rule.Just like this the input/hidden layer neuron has impact on the final output obtained in the final layer.The weights associated with the input/hidden layer is optimized via their association with the output layer which itself updated via loss calculated from difference between predicted and actual value.
+
+
+Chain rule helps in find the partial derivative of a function A with respect to another function B, by using a function C
+
+![chain-rule-1](https://user-images.githubusercontent.com/39134120/126879921-1d80c7b9-354d-44d3-b9fc-87b94fba4b36.png)
+
+Chain rule helps in propagating the loss value from one layer to another such that a given NN's weight is changed with respect to the loss value.
+
+![propagation](https://user-images.githubusercontent.com/39134120/126880076-48e47336-22b9-4c55-9ee1-9373dbfa03fa.png)
+
+![propagation1-gif](https://user-images.githubusercontent.com/39134120/126880092-834226c8-30b1-4484-a99a-8db186c11cd2.gif)
+
+
+Source: https://medium.com/@pavisj/convolutions-and-backpropagations-46026a8f5d2c
+
 ### Let us see forward and backward pass of a small Neural network in MS Excel.
 
 ![Network Structure](https://user-images.githubusercontent.com/39134120/118151499-535e0580-b431-11eb-9248-c29fef488986.JPG)
@@ -32,29 +50,12 @@ Follwing are the values calculated for different parameters of the above shown N
 
 ![NN parameters](https://user-images.githubusercontent.com/39134120/126879579-725ee132-39f2-4fd2-ba0c-db2dff80dba9.JPG)
 
-
-## The "chain rule" in gradient flow
-
-We know that the chain rule is used for calculating the derivative of composite functions. If a variable z depends on the variable y, which itself depends on the variable x, so that y and z are dependent variables, then z, via the intermediate variable of y, depends on x as well. This is called the chain rule.Just like this the input/hidden layer neuron has impact on the final output obtained in the final layer.The weights associated with the input/hidden layer is optimized via their association with the output layer which itself updated via loss calculated from difference between predicted and actual value.
-
-
-Chain rule helps in find the partial derivative of a function A with respect to another function B, by using a function C
-
-![chain-rule-1](https://user-images.githubusercontent.com/39134120/126879921-1d80c7b9-354d-44d3-b9fc-87b94fba4b36.png)
-
-Chain rule helps in propagating the loss value from one layer to another such that a given NN's weight is changed with respect to the loss value.
-
-![propagation](https://user-images.githubusercontent.com/39134120/126880076-48e47336-22b9-4c55-9ee1-9373dbfa03fa.png)
-
-![propagation1-gif](https://user-images.githubusercontent.com/39134120/126880092-834226c8-30b1-4484-a99a-8db186c11cd2.gif)
-
 So using above concept when we calculated values for different parameters we got the following -
-
-![Weight_calc1](https://user-images.githubusercontent.com/39134120/118123847-70371080-b412-11eb-845d-3eb86bb9555d.JPG)
-![Weight_calc2](https://user-images.githubusercontent.com/39134120/118123881-79c07880-b412-11eb-8126-b233d1d70596.JPG)
 
 <img width="745" alt="backprop-1" src="https://user-images.githubusercontent.com/39134120/126879428-83ffae65-f3f7-4ab7-ae9b-0644ee2f30a3.png">
 
+![Weight_calc1](https://user-images.githubusercontent.com/39134120/118123847-70371080-b412-11eb-845d-3eb86bb9555d.JPG)
+![Weight_calc2](https://user-images.githubusercontent.com/39134120/118123881-79c07880-b412-11eb-8126-b233d1d70596.JPG)
 ![Weight_calc3](https://user-images.githubusercontent.com/39134120/118123906-804ef000-b412-11eb-91e1-61adcdb872ed.JPG)
 ![Weight_calc4](https://user-images.githubusercontent.com/39134120/118123929-8644d100-b412-11eb-9847-e6c8b4b9a8db.JPG)
 
