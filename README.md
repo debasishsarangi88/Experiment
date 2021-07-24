@@ -48,15 +48,17 @@ Chain rule helps in propagating the loss value from one layer to another such th
 
 ![propagation1-gif](https://user-images.githubusercontent.com/39134120/126880092-834226c8-30b1-4484-a99a-8db186c11cd2.gif)
 
-<img width="745" alt="backprop-1" src="https://user-images.githubusercontent.com/39134120/126879428-83ffae65-f3f7-4ab7-ae9b-0644ee2f30a3.png">
-
-
 So using above concept when we calculated values for different parameters we got the following -
 
 ![Weight_calc1](https://user-images.githubusercontent.com/39134120/118123847-70371080-b412-11eb-845d-3eb86bb9555d.JPG)
 ![Weight_calc2](https://user-images.githubusercontent.com/39134120/118123881-79c07880-b412-11eb-8126-b233d1d70596.JPG)
+
+<img width="745" alt="backprop-1" src="https://user-images.githubusercontent.com/39134120/126879428-83ffae65-f3f7-4ab7-ae9b-0644ee2f30a3.png">
+
 ![Weight_calc3](https://user-images.githubusercontent.com/39134120/118123906-804ef000-b412-11eb-91e1-61adcdb872ed.JPG)
 ![Weight_calc4](https://user-images.githubusercontent.com/39134120/118123929-8644d100-b412-11eb-9847-e6c8b4b9a8db.JPG)
+
+
 
 We used learning rate of 0.5<br>
 ![learning rate](https://user-images.githubusercontent.com/39134120/118124146-cdcb5d00-b412-11eb-9d30-f60148954141.JPG)
