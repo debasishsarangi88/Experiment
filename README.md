@@ -50,7 +50,7 @@ So using above concept when we calculated values for different parameters we got
 We used learning rate of 0.5<br>
 ![learning rate](https://user-images.githubusercontent.com/39134120/118124146-cdcb5d00-b412-11eb-9d30-f60148954141.JPG)
 
-After using the formula obtained by applying chain rule for backward pass and running for 39 epochs (dragged the formula to 39 observations) we got the following.
+After using the formula obtained by applying chain rule for backward pass and running for 38 epochs (dragged the formula to 38 observations) we got the following.
 ![final_weights](https://user-images.githubusercontent.com/39134120/118124503-4df1c280-b413-11eb-9f91-e50b06e121a5.JPG)
 
 when we plot the error rate with respect to the number of epochs we got the following graph.
