@@ -94,7 +94,6 @@ good convergence but it is not advisable to start with learning rate of 2 for ne
 
 
 
-Note:- All details of weight calculation can be found in "Neural_Net_excel.xlsx" file placed on this repository.
 
 
 
