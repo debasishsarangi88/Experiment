@@ -46,8 +46,7 @@ Chain rule helps in propagating the loss value from one layer to another such th
 
 ![propagation](https://user-images.githubusercontent.com/39134120/126880076-48e47336-22b9-4c55-9ee1-9373dbfa03fa.png)
 
-
-https://raw.githubusercontent.com/pavisj/end2-nlp-pavithra/main/images/propagation-gif.gif
+![propagation1-gif](https://user-images.githubusercontent.com/39134120/126880092-834226c8-30b1-4484-a99a-8db186c11cd2.gif)
 
 <img width="745" alt="backprop-1" src="https://user-images.githubusercontent.com/39134120/126879428-83ffae65-f3f7-4ab7-ae9b-0644ee2f30a3.png">
 
