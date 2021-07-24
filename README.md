@@ -33,7 +33,7 @@ Follwing are the values calculated for different parameters of the above shown N
 ![NN parameters](https://user-images.githubusercontent.com/39134120/126879579-725ee132-39f2-4fd2-ba0c-db2dff80dba9.JPG)
 
 
-##The "chain rule" in gradient flow
+## The "chain rule" in gradient flow
 
 We know that the chain rule is used for calculating the derivative of composite functions. If a variable z depends on the variable y, which itself depends on the variable x, so that y and z are dependent variables, then z, via the intermediate variable of y, depends on x as well. This is called the chain rule.Just like this the input/hidden layer neuron has impact on the final output obtained in the final layer.The weights associated with the input/hidden layer is optimized via their association with the output layer which itself updated via loss calculated from difference between predicted and actual value.
 
