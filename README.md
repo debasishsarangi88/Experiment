@@ -25,10 +25,9 @@ Chain rule helps in propagating the loss value from one layer to another such th
 
 ![propagation1-gif](https://user-images.githubusercontent.com/39134120/126880092-834226c8-30b1-4484-a99a-8db186c11cd2.gif)
 
-
 Source: https://medium.com/@pavisj/convolutions-and-backpropagations-46026a8f5d2c
 
-### Let us see forward and backward pass of a small Neural network in MS Excel.
+# Let us see forward and backward pass of a small Neural network in MS Excel.
 
 ![Network Structure](https://user-images.githubusercontent.com/39134120/118151499-535e0580-b431-11eb-9248-c29fef488986.JPG)
 
