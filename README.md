@@ -42,10 +42,12 @@ Chain rule helps in find the partial derivative of a function A with respect to 
 
 ![chain-rule-1](https://user-images.githubusercontent.com/39134120/126879921-1d80c7b9-354d-44d3-b9fc-87b94fba4b36.png)
 
+Chain rule helps in propagating the loss value from one layer to another such that a given NN's weight is changed with respect to the loss value.
 
-We know that the chain rule is used for calculating the derivative of composite functions. If a variable z depends on the variable y, which itself depends on the variable x, so that y and z are dependent variables, then z, via the intermediate variable of y, depends on x as well. This is called the chain rule.Just like this the input/hidden layer neuron has impact on the final output obtained in the final layer.The weights associated with the input/hidden layer is optimized via their association with the output layer which itself updated via loss calculated from difference between predicted and actual value.
+![propagation](https://user-images.githubusercontent.com/39134120/126880076-48e47336-22b9-4c55-9ee1-9373dbfa03fa.png)
 
 
+https://raw.githubusercontent.com/pavisj/end2-nlp-pavithra/main/images/propagation-gif.gif
 
 <img width="745" alt="backprop-1" src="https://user-images.githubusercontent.com/39134120/126879428-83ffae65-f3f7-4ab7-ae9b-0644ee2f30a3.png">
 
