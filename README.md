@@ -45,7 +45,6 @@ w2 and w4 are the weights from input layer neuron i2 to h1 and h2 respectively.<
 w5 and w7 are the weights from activated hidden layer neuron a_h1 to o1 and o2 respectively.<br>
 w6 and w8 are the weights from activated hidden layer neuron a_h2 to o1 and o2 respectively.<br>
 
-Follwing are the values calculated for different parameters of the above shown Neural network.
 
 ![NN parameters](https://user-images.githubusercontent.com/39134120/126879579-725ee132-39f2-4fd2-ba0c-db2dff80dba9.JPG)
 
