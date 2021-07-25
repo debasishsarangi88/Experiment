@@ -1,16 +1,17 @@
 # Neural Net Basics
 
-Neural network neuron is a storage unit that stores a number or a "signal". Our neurons in our brain in addition to having a storage unit, also have their own computation unit. A neural network neuron has the computation unit outside it along with a weight (a number) for each neuron. A NN neuron stores the result of the computation of its input based on the weight and the activation function.
+### What is a Neuron?
+Neural network neuron is a storage unit that stores a number or a "signal". Neurons in our brain in addition to having a storage unit, also have own computation unit. An artificial neural network neuron has the computation unit outside it along with a weight (a number) for each neuron. A NN neuron stores the result of the computation of its input based on the weight and the activation function.
 
-How are weights initialized?
+### How are weights initialized?
 Weights are initialized based on Gaussian or normal distribution (random-normal) with zero-mean and a calculated variance (smaller weights). The intuition behind the generalization of a NN is about learning from the input distribution. The weights should follow a normal distribution (or something similar) such that as it learns during the training it is able to converge better. The scale of the initial weight distribution affects the convergence of the network. The smaller the scale, better the convergence.
 
 Using weights as constant values hinders convergence mainly because of vanishing/exploding gradients.
 
-What is "loss" in a neural network?
+### What is "loss" in a neural network?
 The difference between the NN output and the ground truth output. The loss function determines the learning (training) outcome in a NN. A loss function shows the NN the gaps that it needs to fill/learn, such that it is able to perform a particular task.
 
-## The "chain rule" in gradient flow
+## What is "chain rule" in gradient flow ?
 
 We know that the chain rule is used for calculating the derivative of composite functions. If a variable z depends on the variable y, which itself depends on the variable x, so that y and z are dependent variables, then z, via the intermediate variable of y, depends on x as well. This is called the chain rule.Just like this the input/hidden layer neuron has impact on the final output obtained in the final layer.The weights associated with the input/hidden layer is optimized via their association with the output layer which itself updated via loss calculated from difference between predicted and actual value.
 
@@ -30,7 +31,6 @@ Source: https://medium.com/@pavisj/convolutions-and-backpropagations-46026a8f5d2
 # Let us see forward and backward pass of a small Neural network in MS Excel
 
 ![NN_network](https://user-images.githubusercontent.com/39134120/126893872-89ff9e62-b36d-4d38-9e52-c54602e5f909.JPG)
-
 
 
 The above image shows the architecture of the Neural network.<br>
