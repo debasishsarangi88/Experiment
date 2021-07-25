@@ -46,10 +46,9 @@ w2 and w4 are the weights from input layer neuron i2 to h1 and h2 respectively.<
 w5 and w7 are the weights from activated hidden layer neuron a_h1 to o1 and o2 respectively.<br>
 w6 and w8 are the weights from activated hidden layer neuron a_h2 to o1 and o2 respectively.<br>
 
-
+So using above concept when we calculated values for different parameters we got the following -
 ![NN parameters](https://user-images.githubusercontent.com/39134120/126879579-725ee132-39f2-4fd2-ba0c-db2dff80dba9.JPG)
 
-So using above concept when we calculated values for different parameters we got the following -
 
 <img width="745" alt="backprop-1" src="https://user-images.githubusercontent.com/39134120/126879428-83ffae65-f3f7-4ab7-ae9b-0644ee2f30a3.png">
 
@@ -58,16 +57,17 @@ So using above concept when we calculated values for different parameters we got
 ![3rd_level_wt_calc](https://user-images.githubusercontent.com/39134120/126893899-8ecdc86b-3ce2-42a3-9350-7f6c9801256f.JPG)
 
 
-
-
 We used learning rate of 0.5<br>
 ![learning rate](https://user-images.githubusercontent.com/39134120/118124146-cdcb5d00-b412-11eb-9d30-f60148954141.JPG)
 
-After using the formula obtained by applying chain rule for backward pass and running for 38 epochs (dragged the formula to 38 observations) we got the following.
-![final_weights](https://user-images.githubusercontent.com/39134120/118124503-4df1c280-b413-11eb-9f91-e50b06e121a5.JPG)
+After using the formula obtained by applying chain rule for backward pass and running for 45 epochs (dragged the formula to 45 observations) we got the following.
+![Weight_calc_excel1](https://user-images.githubusercontent.com/39134120/126894152-43714ee6-834a-4a3d-bbb8-1cb5cbbc6023.JPG)
+![Weight_calc_excel2](https://user-images.githubusercontent.com/39134120/126894159-4391784a-4bcb-4981-83d6-5b6dd295f333.JPG)
+
 
 when we plot the error rate with respect to the number of epochs we got the following graph.
-![Trained network_Error_vs_Epochs](https://user-images.githubusercontent.com/39134120/118124626-7a0d4380-b413-11eb-9731-d38dfdc88444.JPG)
+![Error vs epoch](https://user-images.githubusercontent.com/39134120/126894429-5ff1558d-0d47-4715-9965-2f3fbe7b5434.JPG)
+
 
 We tried with different learning rate and following are the graphs for different learning rates.
 
