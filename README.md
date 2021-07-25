@@ -29,7 +29,8 @@ Source: https://medium.com/@pavisj/convolutions-and-backpropagations-46026a8f5d2
 
 # Let us see forward and backward pass of a small Neural network in MS Excel.
 
-![Network Structure](https://user-images.githubusercontent.com/39134120/118151499-535e0580-b431-11eb-9248-c29fef488986.JPG)
+![NN_network](https://user-images.githubusercontent.com/39134120/126893872-89ff9e62-b36d-4d38-9e52-c54602e5f909.JPG)
+
 
 
 The above image shows the architecture of the Neural network.<br>
@@ -52,10 +53,10 @@ So using above concept when we calculated values for different parameters we got
 
 <img width="745" alt="backprop-1" src="https://user-images.githubusercontent.com/39134120/126879428-83ffae65-f3f7-4ab7-ae9b-0644ee2f30a3.png">
 
-![Weight_calc1](https://user-images.githubusercontent.com/39134120/118123847-70371080-b412-11eb-845d-3eb86bb9555d.JPG)
-![Weight_calc2](https://user-images.githubusercontent.com/39134120/118123881-79c07880-b412-11eb-8126-b233d1d70596.JPG)
-![Weight_calc3](https://user-images.githubusercontent.com/39134120/118123906-804ef000-b412-11eb-91e1-61adcdb872ed.JPG)
-![Weight_calc4](https://user-images.githubusercontent.com/39134120/118123929-8644d100-b412-11eb-9847-e6c8b4b9a8db.JPG)
+![1st_level_wt_calc](https://user-images.githubusercontent.com/39134120/126893892-9948f9f9-d740-4ab1-8632-9de2a5baa64d.JPG)
+![2nd_level_wt_calc](https://user-images.githubusercontent.com/39134120/126893897-dabf84bf-019a-4cfb-80fe-64bd1eef3d47.JPG)
+![3rd_level_wt_calc](https://user-images.githubusercontent.com/39134120/126893899-8ecdc86b-3ce2-42a3-9350-7f6c9801256f.JPG)
+
 
 
 
