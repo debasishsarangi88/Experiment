@@ -61,7 +61,9 @@ We used learning rate of 0.5<br>
 ![learning rate](https://user-images.githubusercontent.com/39134120/118124146-cdcb5d00-b412-11eb-9d30-f60148954141.JPG)
 
 After using the formula obtained by applying chain rule for backward pass and running for 45 epochs (dragged the formula to 45 observations) we got the following.
+First 23 epochs
 ![Weight_calc_excel1](https://user-images.githubusercontent.com/39134120/126894152-43714ee6-834a-4a3d-bbb8-1cb5cbbc6023.JPG)
+Last 22 epochs
 ![Weight_calc_excel2](https://user-images.githubusercontent.com/39134120/126894159-4391784a-4bcb-4981-83d6-5b6dd295f333.JPG)
 
 
