@@ -68,7 +68,7 @@ Last 24 epochs
 
 
 when we plot the error rate with respect to the number of epochs we got the following graph.
-![Error vs epoch](https://user-images.githubusercontent.com/39134120/126896092-20dfea9a-164e-40a8-be96-0c729d0625af.JPG)
+![Error vs epoch](https://user-images.githubusercontent.com/39134120/126896146-ca0d2f30-3eb9-4a28-9230-52f99b4c55cc.JPG)
 
 
 
