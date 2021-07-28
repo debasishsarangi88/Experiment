@@ -54,7 +54,7 @@ So using above concept when we calculated values for different parameters we got
 
 ![1st_level_wt_calc](https://user-images.githubusercontent.com/39134120/126893892-9948f9f9-d740-4ab1-8632-9de2a5baa64d.JPG)
 ![2nd_level_wt_calc](https://user-images.githubusercontent.com/39134120/126893897-dabf84bf-019a-4cfb-80fe-64bd1eef3d47.JPG)
-![3rd_level_wt_calc](https://user-images.githubusercontent.com/39134120/126893899-8ecdc86b-3ce2-42a3-9350-7f6c9801256f.JPG)
+![3rd_level_wt_calc](https://user-images.githubusercontent.com/39134120/127299267-fa42322c-e1e4-4ceb-9611-e1275dc7e1e1.JPG)
 
 
 We used learning rate of 0.5<br>
